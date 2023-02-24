@@ -1084,7 +1084,7 @@ img {
 }
 
 /* For medium devices */
-@media screen and (max-width: 568px) {
+@media screen and (min-width: 568px) {
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -1114,7 +1114,7 @@ img {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     margin-left: auto;
     margin-right: auto;
@@ -1288,14 +1288,13 @@ img {
 }
 
 /* For large devices */
-@media screen and (min-width: 1064px) {
+/* @media screen and (min-width: 1064px) {
    .container {
      margin-inline: auto;
    }
-}
+} */
 
 @media screen and (min-width: 1024px) {
-
   .header,
   .main,
   .footer__container {
